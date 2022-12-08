@@ -1,0 +1,44 @@
+{
+  "name": "passport-sketchfab",
+  "version": "0.0.2",
+  "description": "Sketchfab (OAuth 2.0) authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "passportjs",
+    "sketchfab",
+    "sketchfab.com",
+    "oauth",
+    "oauth 2.0",
+    "auth",
+    "api",
+    "authentication",
+    "bence bozvary",
+    "bozvary.com"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bozvary/passport-sketchfab.git"
+  },
+  "bugs": {
+    "url": "http://github.com/bozvary/passport-sketchfab/issues"
+  },
+  "author": {
+    "name": "Bence Bozvary",
+    "email": "opensource@bozvary.com",
+    "url": "https://bozvary.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib/",
+  "dependencies": {
+    "pkginfo": "0.4.x",
+    "passport-oauth2": "1.6.1"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
